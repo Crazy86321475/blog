@@ -19,19 +19,23 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Ck小站
+subtitle: You are never too old to set another goal or to dream a new dream.
+name: "Cheng Kun"
 email: 359013448@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://crazy86321475.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: null
 github_username:  Crazy86321475
 
 # Build settings
 #theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
